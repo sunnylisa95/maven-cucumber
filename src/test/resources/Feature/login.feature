@@ -12,3 +12,10 @@ Feature: Test login functinality
     And I enter "Welcome2" password
     When I click the login button
     Then I should see the home page
+    
+    Scenario: Login using valid credentials 2
+    And I enter "batch08@codegator.us.basic" username
+    And I enter "Welcome2" password
+    When I click the login button
+    Then I should see the home page
+    
